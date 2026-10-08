@@ -1,0 +1,8 @@
+{
+  "name": "projekt-cockpit",
+  "version": "0.1.0",
+  "description": "Persönliches Projekt-Cockpit als claude.ai-Artifact: Tacho je Projekt, Tagesbriefing, Fristen, abhakbare Aufgaben mit Wiedervorlage, Kalender und Suche – täglich automatisch aktualisiert.",
+  "author": { "name": "Ben Krifft" },
+  "license": "MIT",
+  "keywords": ["projekte", "dashboard", "cockpit", "briefing", "kalender"]
+}
