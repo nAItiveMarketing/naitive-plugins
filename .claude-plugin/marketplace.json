@@ -1,0 +1,12 @@
+{
+  "name": "naitive-plugins",
+  "description": "Claude-Plugins von nAItive Marketing",
+  "owner": { "name": "nAItive Marketing" },
+  "plugins": [
+    {
+      "name": "projekt-cockpit",
+      "source": "./plugins/projekt-cockpit",
+      "description": "Projekt-Cockpit mit Tacho, Tagesbriefing, Kalender und Suche"
+    }
+  ]
+}
