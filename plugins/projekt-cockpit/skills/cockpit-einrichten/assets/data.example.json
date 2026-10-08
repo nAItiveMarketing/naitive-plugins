@@ -1,0 +1,49 @@
+{
+  "owner": "Beispiel GmbH · alle Bereiche",
+  "updated": "2026-10-08T07:30:00+02:00",
+  "coverage": "BEISPIELDATEN – beim Einrichten durch echte Projekte ersetzen.",
+  "calendarHide": [],
+  "briefing": {
+    "date": "2026-10-08",
+    "headline": "Beispiel: Heute zählt vor allem das Website-Projekt, die Freigabe der Startseite steht aus.",
+    "items": [
+      {"prio": "hoch", "project": "beispiel-website", "text": "Startseiten-Entwurf freigeben"},
+      {"prio": "mittel", "project": "beispiel-messe", "text": "Standfläche für die Frühjahrsmesse bestätigen"}
+    ],
+    "deadlines": [
+      {"date": "2026-10-20", "text": "Website-Livegang geplant", "project": "beispiel-website"}
+    ]
+  },
+  "projects": [
+    {
+      "id": "beispiel-website",
+      "name": "Website-Relaunch",
+      "company": "Beispiel GmbH",
+      "source": "Claude",
+      "progress": 70,
+      "progressNote": "Beispiel: Texte und Design fertig, Freigabe offen.",
+      "status": "at-risk",
+      "summary": "Beispielprojekt. Die neue Website ist fertig gebaut, die Startseite wartet auf Freigabe.",
+      "nextSteps": ["Startseiten-Entwurf freigeben", "Impressum prüfen lassen"],
+      "openItems": ["Bildrechte der Teamfotos klären"],
+      "details": "Beispiel-Details: Baukasten, 5 Seiten, Kontaktformular an info@beispiel.de.",
+      "sources": ["Beispiel-Chat: Website-Relaunch"],
+      "lastActivity": "2026-10-07"
+    },
+    {
+      "id": "beispiel-messe",
+      "name": "Frühjahrsmesse 2027",
+      "company": "Beispiel GmbH",
+      "source": "Claude",
+      "progress": 20,
+      "progressNote": "Beispiel: Anmeldung erledigt, Planung beginnt.",
+      "status": "on-track",
+      "summary": "Beispielprojekt. Anmeldung zur Messe ist raus, Standgröße noch offen.",
+      "nextSteps": ["Standfläche für die Frühjahrsmesse bestätigen"],
+      "openItems": [],
+      "details": "",
+      "sources": [],
+      "lastActivity": "2026-10-01"
+    }
+  ]
+}
