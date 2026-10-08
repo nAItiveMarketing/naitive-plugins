@@ -1,9 +1,24 @@
 # nAItive Marketing – Claude-Plugins
 
-Hinzufügen in Claude Code: `claude plugin marketplace add <github-owner>/naitive-plugins`
-Installieren: `claude plugin install projekt-cockpit@naitive-plugins`
-In Cowork: Customize → Plugins → Marketplace hinzufügen (`<github-owner>/naitive-plugins`).
+Marketplace mit Claude-Plugins von nAItive Marketing.
+
+## Einbinden
+
+**Claude Code**
+
+```bash
+claude plugin marketplace add nAItiveMarketing/naitive-plugins
+claude plugin install projekt-cockpit@naitive-plugins
+```
+
+**Claude Desktop-App (Cowork)**: Customize → Plugins → Marketplace hinzufügen → `nAItiveMarketing/naitive-plugins`
+
+## Plugins
 
 | Plugin | Beschreibung |
 | --- | --- |
-| projekt-cockpit | Persönliches Projekt-Cockpit mit Tacho, Tagesbriefing, Kalender und Suche |
+| [projekt-cockpit](plugins/projekt-cockpit) | Persönliches Projekt-Cockpit mit Tacho, Tagesbriefing, abhakbaren Aufgaben, Kalender und Suche – täglich automatisch aktualisiert |
+
+## Lizenz
+
+MIT, siehe [LICENSE](LICENSE).
